@@ -1,0 +1,19 @@
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            DockRTC
+tagline:          A Git Blog
+url:              http://dockrtc.github.io
+paginate:         1
+baseurl:          /
+author:		  DockRTC Admin	
+  name:           DockRTC
+  url:            https://twitter.com/dockrtc
+  email:          info@dockrtc.com
+
+# Custom vars
+version:          1.0.0
+github:
+  repo:           https://github.com/dockrtc/dockrtc.github.io
