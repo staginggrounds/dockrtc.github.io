@@ -8,7 +8,7 @@ tagline:          A Git Blog
 url:              http://dockrtc.github.io
 paginate:         1
 baseurl:          /
-author:		  DockRTC Admin	
+author:
   name:           DockRTC
   url:            https://twitter.com/dockrtc
   email:          info@dockrtc.com
