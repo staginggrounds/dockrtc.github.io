@@ -1,5 +1,6 @@
 ---
 layout: post
+date: 2013-12-31 16:00:00 -08:00
 title: What's DockRTC?
 ---
 
@@ -27,17 +28,17 @@ We use Open Source non-proprietary components whenever possible, which fortunate
 
 > Built on Cool Stuff
 
-- [*] @ChromeOS and Chromebooks and @Chromium and @Chrome, oh and @Chrome for @Android and IOS
-- [*] @Ubuntu 12.04, 13.04, 14.04 though we do think Ubuntu phones are kinda cool, we cant credit without having them :wink:
-- [*] Libre Office
-- [*] @Gimp
-- [*] HTML5,CSS,JS,JQUERY
-- [*] @Amazon Web Services
-- [*] Godaddy - look they maybe out of style but find something cheaper and let us know
-- [*] $9 of American Currency
-- [*] -Built with healthy disregard for the impossible
-- [*] -Managed throuhg a wing and a prayer
-- [*] purple #ac4142
+- [x] @ChromeOS and Chromebooks and @Chromium and @Chrome, oh and @Chrome for @Android and IOS
+- [x] @Ubuntu 12.04, 13.04, 14.04 though we do think Ubuntu phones are kinda cool, we cant credit without having them :wink:
+- [x] Libre Office
+- [x] @Gimp
+- [x] HTML5,CSS,JS,JQUERY
+- [x] @Amazon Web Services
+- [x] Godaddy - look they maybe out of style but find something cheaper and let us know
+- [x] $9 of American Currency
+- [x] -Built with healthy disregard for the impossible
+- [x] -Managed throuhg a wing and a prayer
+- [x] purple #ac4142
 - [ ] -funded by ______________ ?
 
 >> ***Jekyll and Github***
@@ -56,5 +57,5 @@ to enjoy and prosper as a byproduct of freedom, privacy, and minimal but appropr
 #ac4142
 
  > This site is built by
-oneworld, notroll, MIT licensed and built with 9dollars in association with @onlyhdforme and @adpush
+oneworldlicensed.com, notroll, MIT licensed and built with 9dollars in association with @onlyhdforme and @adpush
 
