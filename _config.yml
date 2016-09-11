@@ -1,9 +1,37 @@
 timezone: America/Los_Angeles
-gems: jekyll-paginate
+encoding: UTF-8
+lang: en-US
+branch: gh-pages
+gems:
+  - jekyll-paginate
+  - jemoji
+  - jekyll-mentions
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-avatar
+  - jekyll-github-metadata
+  - jekyll-admin
+permalink: "/:year/:month/:day/:title/"
+defaults:
+  - scope:
+      path: ''
+      type: posts
+    values:
+      layout: post
+      comments: true
+  - scope:
+      path: ''
+      type: pages
+    values:
+      layout: page
+      comments: false
 
+gist:
+  noscript: false  
 
 # Permalinks
-permalink: pretty
 future: true
 paginate: 5
 
@@ -35,3 +63,20 @@ kramdown:
 input: GFM
 syntax_highlighter: rouge
 version: 1.0.0
+
+contact_links:
+  - name: Twitter
+    url: https://twitter.com/rayanthonyrcc
+    icon: twitter
+  - name: Google
+#    url: https://plus.google.com/xxx?rel=author
+    icon: google-plus
+  - name: GitHub
+    url: https://github.com/rayantony
+    icon: github
+  - name: Keybase
+#    url: https://keybase.io/rayanthony
+    icon: key
+
+amazon:
+#  affiliates_tag: 
