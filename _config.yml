@@ -3,17 +3,17 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            DockRTC
-tagline:          A Git Blog
-url:              http://dockrtc.github.io
+title:            Jekyll Semantic
+tagline:          A GH Pages Concept Test
+url:              http://staginggrounds.github.io/jekyll-semantic
 paginate:         1
 baseurl:          /
 author:
-  name:           DockRTC
+  name:           Ray Anthony
   url:            https://twitter.com/dockrtc
   email:          info@dockrtc.com
 
 # Custom vars
 version:          1.0.0
 github:
-  repo:           https://github.com/dockrtc/dockrtc.github.io
+  repo:           https://github.com/staginggrounds/jekyll-semantic
