@@ -5,7 +5,7 @@ permalink:        pretty
 # Setup
 title:            Jekyll Semantic
 tagline:          A GH Pages Concept Test
-url:              http://staginggrounds.github.io/jekyll-semantic
+url:              https://staginggrounds.github.io/jekyll-semantic
 paginate:         1
 baseurl:          /
 author:
