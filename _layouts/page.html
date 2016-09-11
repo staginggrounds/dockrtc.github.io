@@ -2,7 +2,26 @@
 layout: default
 ---
 
-<article class="page">
-  <h1 class="page-title">{{ page.title }}</h1>
-  {{ content }}
-</article>
+
+  <!-- main area after sidebar this gets pushed maybe inside wrap -->
+<div class="masthead segment bg8">
+  <div class="ui container">
+    <div class="introduction center aligned grid">
+
+    <h1 class="ui inverted header">
+          <span class="library transition visible"> </span>  
+	<span class="tagline">{{ page.title }} </span>        
+          <b data-text="a page by ray">a page by ray</b><span class="typed-cursor">|</span> 
+        <blink>|</blink>
+        </h1>
+
+
+    <h1 class="ui inverted header page-title">
+          <span class="library transition visible"> {{ page.title }}</span>
+    </h1>
+        <div class="ui hidden divider"></div>
+          <article class="page">{{ content }}</article>
+        <a href="#" class="ui huge basic inverted blue button"> Contact </a>
+  </div>
+</div>
+</div>
