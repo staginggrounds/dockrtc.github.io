@@ -1,4 +1,5 @@
 ---
+date: 2013-12-31 16:00:00 -08:00
 layout: default
 ---
 <div class="masthead segment bg8">
@@ -10,7 +11,7 @@ layout: default
  	      <span class="tagline"> {{ page.title }} </span>
         <b data-text="a post by ray">a post by ray</b><span class="typed-cursor">|</span> 
         <blink>|</blink>
-  <time datetime="{{ page.date | date_to_xmlschema }}" class="page-date">{{ page.date | date_to_string }}</time>
+  <time datetime="{{ page.date | date_to_xmlschema | "2013-12-31 16:00:00 -08:00"}}" class="page-date">{{ page.date | date_to_string | "2013-12-31 16:00:00 -08:00" }}</time>
      <div class="ui hidden divider"></div>
         <a href="https://chrome.google.com/webstore/detail/ie-sucks/ejbiekjpeokjbhahjchhbgkpabjhbiec" class="ui huge basic inverted blue button"> Reads More  </a>
    </h1>
