@@ -1,13 +1,19 @@
+timezone: America/Los_Angeles
+gems:
+- jekyll-paginate
+
+
 # Permalinks
-permalink:        pretty
-#relative_permalinks: true
+permalink: pretty
+future: true
+paginate: 5
 
 # Setup
 title:            Jekyll Semantic
 tagline:          A GH Pages Concept Test
 url:              https://staginggrounds.github.io/jekyll-semantic
-paginate:         1
-baseurl:          /
+baseurl:          ''
+#baseurl:          /
 author:
   name:           Ray Anthony
   url:            https://twitter.com/dockrtc
@@ -17,3 +23,20 @@ author:
 version:          1.0.0
 github:
   repo:           https://github.com/staginggrounds/jekyll-semantic
+markdown: kramdown
+highlighter: pygments
+kramdown:
+input: GFM
+syntax_highlighter: rouge
+version: 1.0.0
+#author
+author:
+name: Ray Anthony
+ twitter: https://twitter.com/rayanthonyrcc/
+ twitter_username: rayanthonyrcc
+ github_username: rayantony
+ aboutme_username: https://about.me/rayanthony
+ lastfm_username: deadflowers
+ pandora_username: ray517
+ codepen_username: rayrc
+ jsfiddle_username: rayrc
